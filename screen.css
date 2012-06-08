@@ -1,0 +1,118 @@
+<style type="text/css">
+
+body {
+    background: #e6f5f9 url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/bg_glow.gif') repeat-x;
+}
+
+div#wrapper {
+    background: none;
+    border: 0;
+}
+
+div#pageheader {
+    background: none;
+    border: 0;
+}
+
+#pageheader p {
+    padding-left: 50px;
+    font-family: georgia, sans-serif;
+    margin: 20px 0 10px 0;
+    color: #393732; 
+    font-size: 40px;
+    line-height: 40px;
+    background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/chicken.png') no-repeat;
+}
+
+#page {
+    box-shadow: 0 0 3px #666666;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/texture_light.gif') ;
+    width: 940px;
+    position: relative;
+}
+
+div#navBar {
+    background: none;
+    border: 0;
+}
+
+div#navBar ul li {
+    margin-right: 1px;
+    float: left;
+}
+
+/* vertically align help bubble to right of nav */
+ul.navCircle span.help {
+    margin-top: 7px;
+    padding: 0;
+}
+
+div#navBar ul li a {
+    background-color: #566b2a;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 6px 12px;
+    color: #fff;
+    text-shadow: -1px -1px #962727;
+    border: 1px solid #962727; 
+
+    background: #c64444; /* Old browsers */
+    background: -moz-linear-gradient(top, #c64444 26%, #aa3131 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,#c64444), color-stop(100%,#aa3131)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #c64444 26%,#aa3131 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c64444 26%,#aa3131 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c64444 26%,#aa3131 100%); /* IE10+ */
+    background: linear-gradient(top, #c64444 26%,#aa3131 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c64444', endColorstr='#aa3131',GradientType=0 ); /* IE6-9 */
+
+    -moz-box-shadow: 0px 0px 3px #aaa;
+    -webkit-box-shadow: 0px 0px 3px #aaa;
+    box-shadow: 0px 0px 3px #aaa;
+}
+
+
+#help_box {
+    border: 1px solid #6c6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#pagefooter {
+    width: 900px;
+    margin: 0 0 0 10px;
+    padding: 20px;
+    background: #f8feff;
+    border: 0;
+
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+div.section {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.section h3 { /* things that look like fieldset legends */
+    color: #393732;
+    font-family: georgia, sans-serif;
+    background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/texture_light.gif') ;
+    padding: 0 10px 0 10px;
+}
+</style>
+
+
