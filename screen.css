@@ -2,6 +2,7 @@
 
 body {
     background: #e6f5f9 url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/bg_glow.gif') repeat-x;
+    border-top: 4px solid #B23636; /* Page border matches the red link tabs */
 }
 
 div#wrapper {
@@ -32,6 +33,10 @@ div#pageheader {
     background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/texture_light.gif') ;
     width: 940px;
     position: relative;
+}
+
+#page p {
+    font-size: 15px;
 }
 
 div#navBar {
@@ -120,7 +125,7 @@ div.section h3 { /* things that look like fieldset legends */
     padding: 0 10px 0 10px;
 }
 
-/* Skinning the "About" dropdown helpers */
+/* Skinning the "About" dropdown helpers with "application-style" headers with a sublte gradient */
 #help_box .navBar {
     color: white;
     font-size: 16px;
@@ -129,7 +134,7 @@ div.section h3 { /* things that look like fieldset legends */
     
     border-radius: 3px 3px 0 0;
     border-bottom: 1px solid white;
-    text-shadow: 0 -1px #2C5225
+    text-shadow: 0 -1px #2C5225;
     height: 40px;
 
     background-color: #3D7526;
@@ -150,6 +155,45 @@ div.section h3 { /* things that look like fieldset legends */
 
 #help_box .navCircle .help img {
     margin-top: -3px;
+}
+
+/* Styling the links on the sidebar of /market */
+
+#display_options a {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#display_options a:hover {
+    cursor: pointer; 
+}
+
+#display_options a:before {
+    content: '\u00BB ';
+    display: inline;
+}
+
+/* The form element is an inline revealing (jQuery-like) element 
+that drops down beneath the display options link.  Giving it some
+room to breathe here */  
+
+#display_options form {
+    margin-left: 22px;
+}
+
+#display_options input {
+    margin-top: 13px;
+}
+
+/* Padding the FAQ answers so they are lined up with the headers */
+
+#faqs-info .section p {
+    padding-left: 10px;
+}
+
+#faqs-info .section {
+    margin: 40px 0 10px 0;
 }
 </style>
 
