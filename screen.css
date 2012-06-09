@@ -170,7 +170,7 @@ div.section h3 { /* things that look like fieldset legends */
 }
 
 #display_options a:before {
-    content: '\u00BB ';
+    content: '» ';
     display: inline;
 }
 
