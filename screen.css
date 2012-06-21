@@ -195,6 +195,70 @@ room to breathe here */
 #faqs-info .section {
     margin: 40px 0 10px 0;
 }
+
+#new_products.section {
+    background: #fff;
+    position: relative;
+    padding: 20px 0 0 0;
+}
+#new_products.section h3 {
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 0 10px 12px;
+    position: absolute;
+    top: -33px;
+    left: 20px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#new_products.horizontal_carousel ul li {
+    margin-left: 40px;
+}
+
+div.horizontal_carousel .container {
+    width: 698px;
+}
+
+div.horizontal_carousel .previous_button {
+    background: url('http://birdhousebuyingclub.com/left_arrow_green.png') no-repeat;
+    height: 60px;
+    width: 54px;
+    position: absolute;
+    top: 15px;
+    left: -17px;
+    cursor: pointer;
+}
+
+div.horizontal_carousel .previous_button_over {
+    background: url('http://birdhousebuyingclub.com/left_arrow_red.png') no-repeat;
+    top: 14px;
+    cursor: pointer;
+}
+
+
+div.horizontal_carousel .next_button {
+    background: url('http://birdhousebuyingclub.com/right_arrow_green.png') no-repeat;
+    height: 60px;
+    width: 54px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+div.horizontal_carousel .next_button_over {
+    background: url('http://birdhousebuyingclub.com/right_arrow_red.png') no-repeat;
+    top: 14px;
+    cursor: pointer;
+}
+
 </style>
 
 
