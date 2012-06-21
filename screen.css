@@ -234,12 +234,14 @@ div.horizontal_carousel .previous_button {
     top: 15px;
     left: -17px;
     cursor: pointer;
+    z-index: 50;
 }
 
 div.horizontal_carousel .previous_button_over {
     background: url('http://birdhousebuyingclub.com/left_arrow_red.png') no-repeat;
     top: 14px;
     cursor: pointer;
+    z-index: 50;
 }
 
 
@@ -251,12 +253,14 @@ div.horizontal_carousel .next_button {
     top: 15px;
     right: 10px;
     cursor: pointer;
+    z-index: 50;
 }
 
 div.horizontal_carousel .next_button_over {
     background: url('http://birdhousebuyingclub.com/right_arrow_red.png') no-repeat;
     top: 14px;
     cursor: pointer;
+    z-index: 50;
 }
 
 </style>
