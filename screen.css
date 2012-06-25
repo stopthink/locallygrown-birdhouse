@@ -261,3 +261,48 @@ div.horizontal_carousel .next_button_over {
     z-index: 50;
 }
 
+div.orderInstrContainer {
+    float: right;
+    width: 30%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+div.orderInstr {
+    background-color: white;
+    padding: 10px 10px 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+}
+
+div.orderInstr li {
+    margin-bottom: 13px;
+    font-size: 11pt;
+}
+
+.orderInstrContainer h2 {
+    width: 150px;
+    position: absolute;
+    top: 8px;
+    background-color: white;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: -4px;
+    padding-left: 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
