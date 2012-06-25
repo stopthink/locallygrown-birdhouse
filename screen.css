@@ -286,18 +286,22 @@ div.orderInstr li {
 }
 
 .orderInstrContainer h2 {
-    width: 150px;
     position: absolute;
     top: 8px;
     background-color: white;
+
     font-family: Georgia, serif;
     font-weight: normal;
     font-size: 18px;
+
     margin-bottom: -4px;
     padding-left: 10px;
+    padding-right: 10px;
+
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
