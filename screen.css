@@ -1,6 +1,7 @@
 body {
     background: #e6f5f9 url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/bg_glow.gif') repeat-x;
-    border-top: 4px solid #B23636; /* Page border matches the red link tabs */
+    border-top: 4px solid #B23636;
+    /* Page border matches the red link tabs */
 }
 
 div#wrapper {
@@ -17,7 +18,7 @@ div#pageheader {
     padding-left: 50px;
     font-family: georgia, sans-serif;
     margin: 20px 0 10px 0;
-    color: #393732; 
+    color: #393732;
     font-size: 40px;
     line-height: 40px;
     background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/chicken.png') no-repeat;
@@ -48,6 +49,7 @@ div#navBar ul li {
 }
 
 /* vertically align help bubble to right of nav */
+
 ul.navCircle span.help {
     margin-top: 7px;
     padding: 0;
@@ -116,7 +118,8 @@ div.section {
     border-radius: 5px;
 }
 
-div.section h3 { /* things that look like fieldset legends */
+div.section h3 {
+    /* things that look like fieldset legends */
     color: #393732;
     font-family: georgia, sans-serif;
     background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/texture_light.gif') ;
@@ -124,24 +127,17 @@ div.section h3 { /* things that look like fieldset legends */
 }
 
 /* Skinning the "About" dropdown helpers with "application-style" headers with a sublte gradient */
+
 #help_box .navBar {
     color: white;
     font-size: 16px;
     margin-bottom: 17px;
     font-weight: 600;
-    
     border-radius: 3px 3px 0 0;
     border-bottom: 1px solid white;
     text-shadow: 0 -1px #2C5225;
     height: 40px;
-
     background-color: #3D7526;
-    background-image: linear-gradient(top, #5D8F47 26%, #3C6B32 100%);
-    background-image: -o-linear-gradient(top, #5D8F47 26%, #3C6B32 100%);
-    background-image: -moz-linear-gradient(top, #5D8F47 26%, #3C6B32 100%);
-    background-image: -webkit-linear-gradient(top, #5D8F47 26%, #3C6B32 100%);
-    background-image: -ms-linear-gradient(top, #5D8F47 26%, #3C6B32 100%);
-
     background-image: -webkit-gradient(
         linear,
         left top,
@@ -164,7 +160,7 @@ div.section h3 { /* things that look like fieldset legends */
 }
 
 #display_options a:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 #display_options a:before {
@@ -174,7 +170,7 @@ div.section h3 { /* things that look like fieldset legends */
 
 /* The form element is an inline revealing (jQuery-like) element 
 that drops down beneath the display options link.  Giving it some
-room to breathe here */  
+room to breathe here */
 
 #display_options form {
     margin-left: 22px;
@@ -199,6 +195,7 @@ room to breathe here */
     position: relative;
     padding: 20px 0 0 0;
 }
+
 #new_products.section h3 {
     background: #fff;
     border-left: 1px solid #ccc;
@@ -242,7 +239,6 @@ div.horizontal_carousel .previous_button_over {
     z-index: 50;
 }
 
-
 div.horizontal_carousel .next_button {
     background: url('http://birdhousebuyingclub.com/right_arrow_green.png') no-repeat;
     height: 60px;
@@ -265,7 +261,7 @@ div.orderInstrContainer {
     float: right;
     width: 30%;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 div.orderInstr {
@@ -282,31 +278,36 @@ div.orderInstr {
 
 div.orderInstr li {
     margin-bottom: 13px;
-    font-size: 11pt;
+    font-size: 16px;
 }
 
 .orderInstrContainer h2 {
     position: absolute;
-    top: 8px;
+    top: 18px;
     background-color: white;
-
     font-family: Georgia, serif;
     font-weight: normal;
-    font-size: 18px;
-
-    margin-bottom: -4px;
+    font-size: 20px;
+    padding-top: 3px;
     padding-left: 10px;
     padding-right: 10px;
-
+    padding-bottom: 4px;
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.home h2 {
+    font-family: Georgia, Serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #aa3131;
 }
 
