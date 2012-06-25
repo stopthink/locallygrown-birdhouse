@@ -303,11 +303,10 @@ div.orderInstr li {
     border-top-right-radius: 5px;
 }
 
-.home h2 {
+.home, .market h2 {
     font-family: Georgia, Serif;
     font-weight: normal;
     margin-bottom: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid #aa3131;
 }
-
