@@ -112,18 +112,34 @@ div#pagefooter {
 }
 
 div.section {
+    background: #fff;
     border: 1px solid #ccc;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    position: relative;
+    padding: 20px 10px;
+    margin: 50px 0 0 0 !important;
 }
 
 div.section h3 {
     /* things that look like fieldset legends */
     color: #393732;
     font-family: georgia, sans-serif;
-    background: url('http://birdhousebuyingclub.com/wp/wp-content/themes/birdhouse/images/texture_light.gif') ;
-    padding: 0 10px 0 10px;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 0 10px 12px;
+    position: absolute;
+    top: -33px;
+    left: 20px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 /* Skinning the "About" dropdown helpers with "application-style" headers with a sublte gradient */
@@ -189,31 +205,37 @@ room to breathe here */
 #faqs-info .section {
     margin: 40px 0 10px 0;
 }
-
 #new_products.section {
-    background: #fff;
     position: relative;
     padding: 20px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 #new_products.section h3 {
-    background: #fff;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-top: 1px solid #ccc;
     padding: 0 10px 12px;
     position: absolute;
     top: -33px;
     left: 20px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+}
+#new_products.horizontal_carousel ul li {
+    margin-left: 40px;
 }
 
-#new_products.horizontal_carousel ul li {
+#featured_products.section {
+    background: #fff;
+    position: relative;
+    padding: 20px 0 0 0;
+    margin: 50px 0 0 0;
+}
+
+#featured_products.section h3 {
+    padding: 0 10px 12px;
+    position: absolute;
+    top: -33px;
+    left: 20px;
+}
+
+#featured_products.horizontal_carousel ul li {
     margin-left: 40px;
 }
 
